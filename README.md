@@ -159,8 +159,3 @@ Conteúdo do bootcamp (palestra e arquivos de apoio) apresentado na ITLab dia 14
   - DataTables
   - CoffeeScript
 - Coding DOJO Desenvolvendo Aplicações WEB: Client-Side
-
-## Feedback
-
-http://svy.mk/1CcFu5b
-*Senha:ITLabJS*
