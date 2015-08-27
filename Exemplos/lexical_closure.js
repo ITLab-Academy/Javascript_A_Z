@@ -1,30 +1,16 @@
-function criaMultiplicador (fator) {
-	console.log('estou criando a sua função');
-	var _nome = 'Função Multiplicadora por ' + fator;
+function criaContador() {
+	var _contagem = 0;
 
-	var funcaoCriada = function(valor){
-		if (valor == 5)
-			_nome = 'vanderlei sempre';
-
-		console.log(_nome);
-		return fator * valor;
+	var contador = function(){
+		_contagem++;
+		return _contagem;
 	};
 
-	console.log(_nome);
-
-	return funcaoCriada;
+	return contador;
 }
 
-var multiplicaPorDois = criaMultiplicador(2);
-console.log('já criei');
+var c = criaContador();
 
-
-console.log('vou executar');
-
-console.log(multiplicaPorDois(10));
-
-
-var r = multiplicaPorDois(5);
-
-console.log('retornou: ' + r);
-
+console.log(c());
+console.log(c());
+console.log(c());
