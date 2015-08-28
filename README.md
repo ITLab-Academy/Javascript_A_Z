@@ -45,6 +45,7 @@ Conteúdo do bootcamp (palestra e arquivos de apoio) apresentado na ITLab dia 14
   - 5 * Infinity = Infinity
   - Infinity + Infinity = Infinity
   - Infinity – Infinity = NaN
+  - Infinity / Infinity = NaN
 - Math
 
 ### Strings 
@@ -68,6 +69,13 @@ Conteúdo do bootcamp (palestra e arquivos de apoio) apresentado na ITLab dia 14
 
 ### Objects
 
+- São containers de chave-valor (similar a um hashtable)
+- new Object() cria um container vazio (={})
+- Membros podem ser acessados de duas maneiras:
+  - objeto.membro
+  - objeto['membro']
+- Membros podem ser valores ou métodos
+- Podem derivar de outros objetos: Object.create
 - Literals e Nested Objects
 - Membros podem ser adicionados on the fly
 - Prototype
@@ -157,5 +165,4 @@ Conteúdo do bootcamp (palestra e arquivos de apoio) apresentado na ITLab dia 14
   - KnockoutJS
   - Bootstrap
   - DataTables
-  - CoffeeScript
 - Coding DOJO Desenvolvendo Aplicações WEB: Client-Side
